@@ -1,0 +1,11 @@
+django==4.*
+django-debug-toolbar==3.2.1
+Pillow==8.*
+environs[django]==9.3.2
+django-phonenumber-field[phonenumbers]==7.1.0
+djangorestframework==3.14.0
+requests==2.*
+geopy==2.3.0
+rollbar==0.16.*
+gunicorn==20.*
+psycopg2-binary==2.*
