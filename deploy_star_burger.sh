@@ -19,6 +19,7 @@ python manage.py migrate --noinput
 
 systemctl restart star-burger.service
 systemctl reload nginx.service
+systemctl start starburger-clearsessions.service starburger-clearsessions.timer
 
 if [[ -f .env ]]; then
     source .env
